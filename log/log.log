@@ -1,0 +1,8 @@
+2020-03-09 22:43:12,924  INFO hn.cch.AppMain.main(AppMain.java:78) OK
+2020-03-09 22:43:12,928  INFO hn.cch.AppMain.main(AppMain.java:79) OK
+2020-03-09 22:43:12,929  INFO hn.cch.AppMain.main(AppMain.java:81) redis.sentinel.port
+2020-03-09 22:43:12,929  INFO hn.cch.AppMain.main(AppMain.java:82) 
+2020-03-09 22:44:01,463  INFO hn.cch.AppMain.main(AppMain.java:78) OK
+2020-03-09 22:44:01,466  INFO hn.cch.AppMain.main(AppMain.java:79) OK
+2020-03-09 22:44:01,466  INFO hn.cch.AppMain.main(AppMain.java:81) redis.sentinel.port
+2020-03-09 22:44:01,467  INFO hn.cch.AppMain.main(AppMain.java:82) redis.master.auth
