@@ -14,9 +14,9 @@ import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
 
-public class AppMain {
+public class Main {
 
-    private static Logger logger = LoggerFactory.getLogger(AppMain.class);
+    private static Logger logger = LoggerFactory.getLogger(Main.class);
 
     public static final String USER_DIR = System.getProperty("user.dir");
 
@@ -63,7 +63,9 @@ public class AppMain {
         //哨兵模式集群部署
         Set<String> sentinels = new HashSet<>();
         for (int i = 0; i < hosts.length; i++) {
-            sentinels.add(hosts[i] + ":" + ports[i]);
+            String sentinel = hosts[i] + ":" + ports[i];
+            sentinels.add(sentinel);
+            logger.info("sentinel:{}", sentinel);
         }
 
         //主机和密码

@@ -19,7 +19,7 @@
 
         <java.version>1.8</java.version>
         <source.encoding>utf-8</source.encoding>
-        <main.class>hn.cch.AppMain</main.class>
+        <main.class>hn.cch.Main</main.class>
 
         <slf4j.version>1.7.2</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
